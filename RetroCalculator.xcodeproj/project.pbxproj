@@ -12,6 +12,9 @@
 		8976D0691D39CA7700F475D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8976D0671D39CA7700F475D2 /* Main.storyboard */; };
 		8976D06B1D39CA7700F475D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8976D06A1D39CA7700F475D2 /* Assets.xcassets */; };
 		8976D06E1D39CA7700F475D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8976D06C1D39CA7700F475D2 /* LaunchScreen.storyboard */; };
+		8976D0761D39D75900F475D2 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8976D0751D39D75900F475D2 /* Minecraft.ttf */; };
+		8976D0781D39D85600F475D2 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8976D0771D39D85600F475D2 /* btn.wav */; };
+		EB6ADC7A1E99185E00BA9F36 /* jet-whoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB6ADC791E99185E00BA9F36 /* jet-whoosh.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8976D06A1D39CA7700F475D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8976D06D1D39CA7700F475D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8976D06F1D39CA7700F475D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8976D0751D39D75900F475D2 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		8976D0771D39D85600F475D2 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		EB6ADC791E99185E00BA9F36 /* jet-whoosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "jet-whoosh.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		8976D0621D39CA7700F475D2 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				EB6ADC791E99185E00BA9F36 /* jet-whoosh.wav */,
+				8976D0751D39D75900F475D2 /* Minecraft.ttf */,
+				8976D0771D39D85600F475D2 /* btn.wav */,
 				8976D0631D39CA7700F475D2 /* AppDelegate.swift */,
 				8976D0651D39CA7700F475D2 /* ViewController.swift */,
 				8976D0671D39CA7700F475D2 /* Main.storyboard */,
@@ -91,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Devslopes;
 				TargetAttributes = {
 					8976D05F1D39CA7700F475D2 = {
@@ -125,8 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6ADC7A1E99185E00BA9F36 /* jet-whoosh.wav in Resources */,
+				8976D0781D39D85600F475D2 /* btn.wav in Resources */,
 				8976D06E1D39CA7700F475D2 /* LaunchScreen.storyboard in Resources */,
 				8976D06B1D39CA7700F475D2 /* Assets.xcassets in Resources */,
+				8976D0761D39D75900F475D2 /* Minecraft.ttf in Resources */,
 				8976D0691D39CA7700F475D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,8 +192,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -228,8 +242,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -297,6 +313,7 @@
 				8976D0741D39CA7700F475D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
